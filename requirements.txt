@@ -1,0 +1,9 @@
+streamlit>=1.24
+PyMuPDF==1.22.3      # for PDF text extraction (fitz)
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4     # use faiss-gpu if you have GPU
+transformers>=4.35.0
+torch>=2.1.0
+requests>=2.31.0
+tqdm
+python-dotenv
